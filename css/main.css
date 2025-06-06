@@ -125,4 +125,40 @@ h1, h2, h3 {
   color: #f1e4ff;
 }
 
+.suscripcion {
+  background-color: #1f142e;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.suscripcion form {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.suscripcion input[type="email"] {
+  padding: 0.8rem;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  min-width: 250px;
+  background-color: #2d214a;
+  color: #fff;
+}
+
+.suscripcion button {
+  background-color: #ff39c0;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.suscripcion button:hover {
+  background-color: #923377;
+}
 
